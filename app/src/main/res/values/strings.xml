@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SingleSignOn</string>
+    <string name="iniciar_sesi_n_con_google">Iniciar Sesión con Google</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

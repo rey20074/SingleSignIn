@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#8E8D8D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:backgroundTint="@color/white"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/common_google_signin_btn_icon_light"
+        android:text="@string/iniciar_sesi_n_con_google" />
+
+
+    <Button
+        android:id="@+id/sig"
+        android:backgroundTint="@color/white"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="mapa (Por si no funciona el login)" />
+
+
+</LinearLayout>
